@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "src\ConsoleAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "Tests\UnitTests\UnitTests.csproj", "{3605229B-4900-4863-A5CD-98CE4488CDC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeLib", "TicTacToeLib\TicTacToeLib.csproj", "{35A43099-0973-4A3C-AC46-04559B0B3CDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToeLib", "TicTacToeLib\TicTacToeLib.csproj", "{35A43099-0973-4A3C-AC46-04559B0B3CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApplication", "src\MauiApplication\MauiApplication.csproj", "{4B96F335-E195-4947-8165-376912A10951}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,12 @@ Global
 		{35A43099-0973-4A3C-AC46-04559B0B3CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35A43099-0973-4A3C-AC46-04559B0B3CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A43099-0973-4A3C-AC46-04559B0B3CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B96F335-E195-4947-8165-376912A10951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B96F335-E195-4947-8165-376912A10951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B96F335-E195-4947-8165-376912A10951}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4B96F335-E195-4947-8165-376912A10951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B96F335-E195-4947-8165-376912A10951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B96F335-E195-4947-8165-376912A10951}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2A76D4B4-532A-4B24-88F0-632A4FF99BD7} = {9EA5C390-90A7-4D53-9076-CBAE620E8C8C}
 		{35A43099-0973-4A3C-AC46-04559B0B3CDD} = {9EA5C390-90A7-4D53-9076-CBAE620E8C8C}
+		{4B96F335-E195-4947-8165-376912A10951} = {9EA5C390-90A7-4D53-9076-CBAE620E8C8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DECAF25-1776-41B3-828C-9C903C2DCF45}
